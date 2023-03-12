@@ -15,8 +15,8 @@ onMounted(() => {
     <div class="m-auto">
       <weather-card
           v-if="weatherStore.forecast.current"
-          :forecast="weatherStore.forecast.current"
-          :location="weatherStore.forecast.location"/>
+          :forecast="weatherStore.forecast.current ?? null"
+          :location="weatherStore.forecast.location ?? null"/>
 
     </div>
   </div>

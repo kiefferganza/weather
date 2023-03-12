@@ -21,7 +21,7 @@
             </div>
           </div>
           <div class="w-full place-items-end text-right border-t-2 border-gray-100 mt-2">
-            <a href="#" class="text-indigo-600 text-xs font-medium">View more</a>
+            <a href="#" class="text-indigo-600 text-xs font-medium">Search</a>
           </div>
         </div>
       </div>
